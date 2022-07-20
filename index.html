@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anytime Fitness </title>
+</head>
+<link rel="stylesheet" href="index.css">
+<style>
+    body{
+        color:white;
+        margin:0px;
+        padding:0px;
+        background-repeat: no-repeat;
+        background: url("bg\ image.jpg");
+        background-size: cover;
+    }
+    .left{
+        display:inline-block;
+        position:absolute;
+        left:34px;
+        top :10px;
+
+    }
+    .mid{
+        display:block;
+        width:40%;
+        margin:10px auto;
+        }
+    .right{
+        position:absolute;
+        right:34px;
+        top:10px;
+        display:inline block;
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        display:inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-weight: 100;
+    }
+    .navbar li a:hover{
+    
+        text-decoration:underline;
+        color:grey;
+        
+    }
+    .left img{
+        width:136px;
+    }
+    .left div{
+        text-align:center;
+    }
+    .btn{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin:0px 9px;
+        background-color: black;
+        color:white;
+        padding:4px 14px;
+        border:2px solid grey;
+        border-radius:10px;
+        font-size:15px;
+        font-weight: 100;
+        cursor:pointer;
+
+    }
+    .btn:hover{
+        background-color: darkslategrey;
+    }
+    .container{
+        margin:40px  20px;
+        padding:20px 2px;
+        width:33%;
+        
+    }
+    .form-group input{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          text-align:center;
+          display:block;
+          width:508px;
+          padding:3px;
+          border:2px  solid black;
+          margin:11px  auto;
+          font-size:20px;
+          border-radius:8px;
+
+    }
+    .container h1{
+        text-align:center;
+
+    }
+    .container button{
+        display:block;
+        width:508px;
+        margin:auto;
+        border-radius: 8px;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+          <img src="logo for gym website.jpeg" alt="">
+          <div>Anytime Fitness</div>
+        </div>
+        <div class="mid">
+         
+          <ul class="navbar">
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Fitness Center</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+        </div>
+        <div class="right">
+        <button class="btn">Call us Now</button>
+        <button class="btn">E-mail us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>Raise above the pain and don’t stop until you are done</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
